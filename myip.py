@@ -29,7 +29,6 @@ class MyIPHandler(http.server.SimpleHTTPRequestHandler):
                 </head>
                 <body>
                     <h1>MyIP</h1>
-                    <p>User: {os.getlogin()}</p>
                     <p>IP: {ip}</p>
                     <p>Country: {country}</p>
                     <p>Country Code: {cc}</p>
