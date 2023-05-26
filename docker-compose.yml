@@ -10,5 +10,6 @@ services:
     container_name: myip-nginx
     volumes:
       - ./nginx:/etc/nginx/conf.d
+      - ./client:/var/www/myip
     ports:
       - 8080:80

@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #ip-container {
+    margin-top: 50px;
+  }
+  
+  #ip-address {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
